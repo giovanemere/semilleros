@@ -56,7 +56,7 @@ if [[ -z "$comment" || -z "$rama" ]]; # Si no se envia carpeta de repositorio de
         echo "git push origin $rama"
         echo "----------------------------------------------------"
         
-        git push https://"blockchain:3t4ednytcppmlzymxw2dtpe5vmsbksghrh4peo6a7q5gtr374waq"@dev.azure.com/CSJ-GPET/csj-blockchain/_git/csj-blockchain-infraestructura
+        git push origin $rama
 
         read -p "Press [Enter] key to continue..." readEnterKey
 
